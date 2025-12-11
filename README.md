@@ -85,6 +85,9 @@ We apply split conformal prediction to ensure that for any new input $x$, the pr
 - **Robustness:** The Conformal Predictor successfully adapted to noisy, uncropped data by increasing the average set size from 2.19 to 5.06, whereas a Naive Top-K baseline failed.
 - **Diagnostic Insight:** We found a strong correlation between high uncertainty (large set sizes) and low SER ($<0.35$). This indicates that extreme uncertainty is often driven by "attentional failure," where the model attends to background scenery rather than the subject.
 
+## Notes
+- The checkpoint used in the notebook is not uploaded to the github because it is a large file. If you want the path on the cluster please let me know.
+
 ## 📚 References
 
 - [1] Wah et al. Caltech-UCSD Birds-200-2011 (2011).
