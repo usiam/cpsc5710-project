@@ -35,8 +35,8 @@ Our system allows clinicians to inspect visual evidence supporting each potentia
 - Clone the repository:
 
 ```
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
+git clone [git@github.com:usiam/cpsc5710-project.git](git@github.com:usiam/cpsc5710-project.git)
+cd cpsc5710-project
 ```
 
 - Create the environment: This project uses conda for dependency management.
